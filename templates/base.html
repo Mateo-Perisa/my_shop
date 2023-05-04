@@ -1,0 +1,37 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+
+        {% endblock title %}
+    </title>
+    {% block css_files %}
+        <link rel="stylesheet" href="{% static 'app.css' %}">
+    {% endblock css_files %}
+</head>
+<body>
+    <header id="main-navigation" style ="background-image:url('static/images/HEADER.jpg');">
+        <nav>
+            <h1><a href="{% url "index" %}">Početna</a></h1>
+            <h1><a href="{% url "novosti" %}">Novosti</a></h1>
+            <h1><a href="{% url "kontakt" %}">Kontakt</a></h1>
+            <h1><a href="{% url "o_nama" %}">O nama</a></h1>
+            <h1><a href="{% url "prijava" %}">Prijavi se</a></h1>
+        </nav>
+      </header>
+      <h2>MP_MOTO</h2> 
+      
+      
+    
+    {% block content %}
+
+
+    {% endblock content %}
+</body>
+</html>
