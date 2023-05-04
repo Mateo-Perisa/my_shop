@@ -7,3 +7,5 @@ from django import forms
 def index(request):
     return render (request, 'index.html')
 
+def prijava(request):
+    return render(request, "prijava.html")
