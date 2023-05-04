@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  margin: 1rem;
+  background-color:gray;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+}
+
+#main-navigation {
+  background-image: url('static/images/HEADER.jpg');
+  background-size: auto;
+}
+
+
+#main-navigation nav {
+  display: flex;
+  
+
+}
+#main-navigation h1 {
+  margin: 0rem 2rem;
+  font-size: medium;
+}
+
+#main-navigation a {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+#main-navigation a:hover,
+#main-navigation a:active {
+  color: #2d0d3a;
+}
+
+#main-navigation h1 a:hover,
+#main-navigation h1 a:active {
+  color: rgb(107, 107, 107);
+}
+
+
