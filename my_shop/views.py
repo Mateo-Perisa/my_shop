@@ -12,3 +12,6 @@ def prijava(request):
 
 def o_nama(request):
     return render(request, "o_nama.html")
+
+def novosti(request):
+    return render(request, "novosti.html")
