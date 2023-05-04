@@ -15,3 +15,6 @@ def o_nama(request):
 
 def novosti(request):
     return render(request, "novosti.html")
+
+def kontakt(request):
+    return render(request, "kontakt.html")
