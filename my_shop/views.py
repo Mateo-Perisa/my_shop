@@ -12,3 +12,9 @@ def prijava(request):
 
 def o_nama(request):
     return render(request, "o_nama.html")
+<<<<<<< HEAD
+=======
+
+def novosti(request):
+    return render(request, "novosti.html")
+>>>>>>> aplikacija
