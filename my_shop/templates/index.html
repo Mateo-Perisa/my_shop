@@ -1,0 +1,146 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    MP_MOTO
+{% endblock title %}
+
+{% block css_files %}
+        <link rel="stylesheet" href="{% static 'app.css' %}">
+        <link rel="stylesheet" href="{% static 'index.css' %}">
+{% endblock css_files %}
+
+{% block content %}
+
+<div class="dropdown">
+  <button class="dropbtn">IZBORNIK</button>
+  <div class="dropdown-content">
+  <a href="https://en.wikipedia.org/wiki/KTM">KTM SX250F</a>
+  <a href="https://en.wikipedia.org/wiki/Suzuki_RM_series">SUZUKI RMZ250</a>
+  <a href="https://en.wikipedia.org/wiki/KTM">KTM SX150</a>
+  <a href="https://en.wikipedia.org/wiki/Husqvarna_Motorcycles">HUSQWARNA FC250F</a>
+  <a href="https://hr.wikipedia.org/wiki/Yamaha_yzf">YAMAHA YZ250</a>
+  <a href="https://en.wikipedia.org/wiki/Honda_CRF_series">HONDA CR250F</a>
+  <a href="https://en.wikipedia.org/wiki/Kawasaki_KX250F">KAWASAKI KX250F</a>
+  <a href="https://en.wikipedia.org/wiki/KTM_Duke_series">KTM DUKE125</a>
+  <a href="https://en.wikipedia.org/wiki/Beta_(motorcycle_manufacturer)">BETA 250RR</a>
+  <a href="https://en.wikipedia.org/wiki/Sherco">SHERCO SEF250</a>
+  <a href="https://it.wikipedia.org/wiki/TM_Racing">TM RACING MX250</a>
+  <a href="https://it.wikipedia.org/wiki/KTM_EXC">KTM EXC 125</a>
+  
+   
+</div>
+</div>
+
+  <div class="gallery">
+    <div class="card">
+      <a target="_blank" href="static/images/SX250F.jpg">
+      <img src="static/images/SX250F.jpg" alt="Slika 1">
+    </a>
+      <p>Model: KTM SX250F</p>
+      <p>Cijena: 9,299$</p>
+      <p>Godina: 2022</p>
+    </div>
+    
+    <div class="card">
+      <a target="_blank" href="static/images/SUZUKI.jpg">
+        <img src="static/images/SUZUKI.jpg" alt="Slika 2">
+      </a>
+        <p>Model: Suzuki RMZ250</p>
+        <p>Cijena: 7,899$</p>
+        <p>Godina: 2020</p>
+      </div>
+
+      <div class="card">
+        <a target="_blank" href="static/images/SX 150.jpg">
+        <img src="static/images/SX 150.jpg" alt="Slika 3">
+      </a>
+        <p>Model: KTM SX150</p>
+        <p>Cijena: 7,599$</p>
+        <p>Godina: 2021</p>
+      </div>
+
+      <div class="card">
+        <a target="_blank" href="static/images/HUSKY.jpg">
+        <img src="static/images/HUSKY.jpg" alt="Slika 4">
+      </a>
+        <p>Model: Husqwarna FC250F </p>
+        <p>Cijena: 9,699$</p>
+        <p>Godina: 2022</p>
+      </div>
+
+      <div class="card">
+        <a target="_blank" href="static/images/YAMAHA.jpg">
+        <img src="static/images/YAMAHA.jpg" alt="Slika 5">
+      </a>
+        <p>Model: Yamaha YZ250</p>
+        <p>Cijena: 8,299$</p>
+        <p>Godina: 2022</p>
+      </div>
+
+      <div class="card">
+        <a target="_blank" href="static/images/HONDA.jpg">
+        <img src="static/images/HONDA.jpg" alt="Slika 6">
+      </a>
+        <p>Model: Honda CR450F</p>
+        <p>Cijena: 7,999$</p>
+        <p>Godina: 2021</p>
+      </div>
+
+      <div class="card">
+        <a target="_blank" href="static/images/KAWASAKI KXF.jpg">
+        <img src="static/images/KAWASAKI KXF.jpg" alt="Slika 7">
+      </a>
+        <p>Model: Kawasaki KX250F</p>
+        <p>Cijena: 8,399$</p>
+        <p>Godina: 2022</p>
+      </div>
+
+      <div class="card">
+        <a target="_blank" href="static/images/DUKE 125.png">
+        <img src="static/images/DUKE 125.png" alt="Slika 8">
+        </a>
+        <p>Model: KTM DUKE125</p>
+        <p>Cijena: 9,399$</p>
+        <p>Godina: 2021</p>
+      </div>
+
+      <div class="card">
+        <a target="_blank" href="static/images/BETA.jpg">
+        <img src="static/images/BETA.jpg" alt="Slika 9">
+      </a>
+        <p>Model: Beta 250RR</p>
+        <p>Cijena: 8,799$</p>
+        <p>Godina: 2022</p>
+      </div>
+
+      <div class="card">
+        <a target="_blank" href="static/images/Sherco.jpg">
+        <img src="static/images/Sherco.jpg" alt="Slika 10">
+      </a>
+        <p>Model: Sherco SEF250</p>
+        <p>Cijena: 8,999$</p>
+        <p>Godina: 2020</p>
+      </div>
+
+      <div class="card">
+        <a target="_blank" href="static/images/TMracing.jpg">
+        <img src="static/images/TMracing.jpg" alt="Slika 11">
+      </a>
+        <p>Model: TM Racing MX250</p>
+        <p>Cijena: 9,199$</p>
+        <p>Godina: 2021</p>
+      </div>
+
+      <div class="card">
+        <a target="_blank" href="static/images/KTMsuper.jpg">
+        <img src="static/images/KTMsuper.jpg" alt="Slika 12">
+      </a>
+        <p>Model: KTM exc 125</p>
+        <p>Cijena: 7,899$</p>
+        <p>Godina: 2023</p>
+      </div>
+
+
+
+{% endblock content %}

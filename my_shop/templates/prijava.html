@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static 'app.css' %}">
+    <link rel="stylesheet" href="{% static 'prijava.css' %}">
+{% endblock css_files %}
+
+{% block content %}
+
+    <form>
+        <div class="container">
+            <form action="/action_page.php">
+            <div class="row">
+            <div class="col-25">
+                <label for="fname">Ime</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Tvoje ime..">
+            </div>
+            
+
+            </div>
+            <div class="row">
+            <div class="col-25">
+                <label for="lname">Prezime</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Tvoje prezime..">
+            </div>
+
+
+            </div>
+            <div class="row">
+            <div class="col-25">
+                <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+                 <input type="text" id="Email" name="Email" placeholder="Email..">
+            </div>
+
+
+            </div>
+            <div class="row">
+            <div class="col-25">
+                <label for="Lozinka">Lozinka</label>
+            </div>
+            <div class="col-75">
+                <input type="password" id="Lozinka" name="Lozinka" placeholder="Lozinka..">
+            </div>
+
+            
+            <br>
+            <div class="row">
+            <input type="submit" value="Submit">
+            </div>
+            </form>
+        </div>  
+    </form>
+
+{% endblock content %}
