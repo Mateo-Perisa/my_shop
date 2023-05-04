@@ -9,3 +9,6 @@ def index(request):
 
 def prijava(request):
     return render(request, "prijava.html")
+
+def o_nama(request):
+    return render(request, "o_nama.html")
